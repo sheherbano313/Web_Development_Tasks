@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .haeder{
+        width: 100%;
+        height: 100px;
+        background-color: brown;
+    }
+    .container{
+        float: left;
+    }
+    .container.logo{
+        width: 20%;
+        height: inherit;
+        line-height: 100px;
+        padding-left: 10px;
+        color: white;
+    }
+    .container.nav{
+        width: 75%;
+        height: inherit;
+    }
+    .container.nav ul{
+        list-style-type: none;
+    }
+    .container.nav ul li{
+        float: left;
+    }
+    .container.nav ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        line-height: 80px;
+    }
+    .wrapper{
+        width: 100%;
+        height: auto;
+    }
+.side-bar{
+    width: 30%;
+    height: 500px;
+    background-color: gray;
+}
+.main{
+    width: 70%;
+    height: 500px;
+    background-color: green;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+    clear: both;
+}
+</style>
+<body>
+    <header class="haeder">
+        <div class="container logo">
+            Logo
+        </div>
+        <nav class="container nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <aside class="container side-bar">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Product</a>
+            <a href="">Contact</a>
+        </aside>
+
+        <main class="container main">
+            this is main container
+        </main>
+
+    </div>
+
+    <div class="footer">footer</div>
+</body>
+</html>

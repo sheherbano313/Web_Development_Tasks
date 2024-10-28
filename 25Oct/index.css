@@ -1,0 +1,54 @@
+.main{
+    margin: 20px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../15OctTask/image.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.left{
+    margin-left: 100px;
+
+}
+.left ul {
+    list-style: none;
+    display: flex;
+}
+.left ul li {
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 40px;
+    color: rgb(8, 8, 8);
+    
+}
+.right{
+    
+    float: right;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+    margin-top: -40px;
+  
+}
+.right ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    margin-right: 40px;
+    
+}
+.text{
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: 150px;
+    margin-left: -350px;
+    font-size: 30px;
+
+}
+/* .text .button{
+    border-radius: 15%;
+    background-color: #fff;
+    color: black;
+} */

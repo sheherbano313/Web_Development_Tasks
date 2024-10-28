@@ -1,0 +1,178 @@
+.mainContainer{
+    background-color: #cec5c5;
+}
+
+/* Header Section Style */
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 28px;
+    justify-content: end;
+    float: right;
+    height: 40px;
+    width: 100%;
+    /* margin-right: -50px; */
+    background-color: rgb(244, 240, 234);
+}
+.nav ul li a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: #a9d117;
+}
+
+/* 1st section style */
+.section1{
+    display: flex;
+    width: 100%;
+    height: 400px;
+
+}
+
+
+/* 1st section left div */
+.sect1One{
+    width: 50%;
+    height: 350px;
+    margin-left: 0px ;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(244, 240, 234);
+    margin-top: -20px;
+}
+.text{
+    width: 40%;
+    height: 150px;
+    align-items: center;
+    justify-content:center;
+    text-align: justify;
+    margin: 30px;
+    margin-left: 170px;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin-left: 2px;
+
+}
+/* 1st section right div */
+.sect1two{
+    width: 50%;
+    height: 300px;
+    border: solid black 1px;
+    margin-top: -14px;
+    float: right;
+    background-image: url('../15OctTask/image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.sect1two img{
+    width: 25%;
+    height: 150px;
+    justify-content: center;
+    margin: 90px;
+    margin-left: 170px;
+    opacity: 0.1px;
+}
+/* Section 2 style */
+.section2{
+    width: 100%;
+    height: 530px;
+    background-color: #cec5c5;
+}
+/* childsect2 */
+.childsect2{
+    display: flex;
+}
+.sect2div{
+    width: 25%;
+    height: 300px;
+    margin: 3%;
+}
+.sect2div img{
+    width: 50%;
+    height: 170px;
+    align-items: center;
+    margin: 10px 70px;
+    text-align: center;
+}
+#text{
+    width: 50%;
+    height: 170px;
+    align-items: center;
+    margin: 10px 70px; 
+    text-align: justify;
+}
+/* Last container style*/
+.lastContainer{
+    background: #fefdfd;
+}
+/* third section style */
+.section3{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    /* padding: 15px; */
+}
+.sect3left{
+ width: 50%;
+ height: 230px;
+ background-image: url('./bgimage.jpg');
+ background-size: contain;
+}
+.sect3left img{
+    width: 30%;
+    height: 150px;
+    margin: 40px;
+    margin-left: 170px;
+}
+.sect3right{
+    width: 50%;
+    height: 250px;
+    background-color: #f7f6f5;
+    margin-left: 130px;
+    text-align: justify;
+   }
+.lastsection{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.lastleft{
+    width: 25%;
+    height: 150px;
+    padding: 20px 100px;
+    padding-left: 140px;
+    /* border: solid black 1px; */
+}
+.lastright{
+    width: 70%;
+    height: 300px;
+    background-color: #86d269;
+    margin-top: -70px;
+    display: flex;
+    padding: 10px;
+    padding-left: 140px;
+}
+.rightchild{
+    width: 20%;
+    height: 200px;
+    border: solid black 1px;
+    padding: 10px 30px;
+    gap: 10px;
+    margin: 8px;
+    margin-top: 50px;
+    background-color: rgb(51, 46, 46);
+   color: white;
+}
+footer{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    background-color: #989595;
+}

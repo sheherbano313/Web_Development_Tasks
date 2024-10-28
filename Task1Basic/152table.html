@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+        }
+        table{
+ border: solid black 1px;
+ border-collapse: collapse;
+        }
+         tr, th,td{
+           
+            /* border-collapse: collapse; */
+            padding: 15px 40px;
+        }
+        table tr:nth-child(odd){
+            background-color: rgb(207, 219, 209);
+        }
+        .left{
+            width: 50%;
+            height: 450px;
+            /* border: solid black 2px; */
+            margin: 10px;
+            padding: 20px
+        }
+        .right {
+  width: 30%;
+  height: 550px;
+  margin: 0px;
+  padding: 20px;
+  
+}
+
+.rightt {
+  border: solid black 1px;
+  background-color: beige;
+  width: 100%; 
+  height: 450px;
+  border-collapse: collapse;
+  margin-top: -20px;
+}
+.btn{
+    display: flex; 
+  justify-content: center;
+}
+.btn, button {
+  border-radius: 10px; 
+  margin: 3px; 
+  padding: 10px 15px; 
+  background-color: #f0f0f0;
+}
+select {
+  width: 80%;
+  height: 30px;
+  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+h3{
+    display: block;
+}
+.btn, button:hover{
+  background-color: #c27f7f;
+}
+
+    </style>
+</head>
+<body>
+   <div class="main">
+    <div class="left">
+        <h4 style="font-size: 25px;font-weight:bold;">List Of Person</h4>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>Zainab</td>
+                <td>female</td>
+                <td>30</td>
+                <td>Khaplu</td>
+                <td>Update/Remove</td>
+            </tr>
+            <tr>
+                <td>Abida</td>
+                <td>female</td>
+                <td>30</td>
+                <td>Skardu</td>
+                <td>Update/Remove</td>
+            </tr>
+            <tr>
+                <td>Aqeela</td>
+                <td>female</td>
+                <td>30</td>
+                <td>Kharmang</td>
+                <td>Update/Remove</td>
+            </tr>
+            <tr>
+                <td>Abbas</td>
+                <td>male</td>
+                <td>30</td>
+                <td>Rondu</td>
+                <td>Update/Remove</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="right">
+        <h3 style="margin-left: 150px;">Add/Update Person Form</h3>
+        <table class="rightt">
+          <tr>
+            <td><label for="Name">Name:</label></td>
+            <td><input type="text" placeholder="taiba"></td>
+          </tr>
+          <tr>
+            <td><label for="Gender">Gender:</label></td>
+            <td>
+              <label for="Male">Male</label>
+              <input type="radio" name="gender" id="male">
+              <label for="Female">Female</label>
+              <input type="radio" name="gender" id="female"><br>
+             
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="age">Age:</label></td>
+            <td><input type="text" id="age"></td>
+          </tr>
+          <tr>
+            <td><label for="city">City:</label></td>
+            <td>
+              <select id="city">
+                <option value="" style="width: 30px; height: 10px;">Select a city</option>
+                <option value="lahore">Lahore</option>
+                <option value="karachi">Karachi</option>
+                <option value="islamabad">Islamabad</option>
+                <option value="baltistan">Baltistan</option>
+              </select>
+            </td>
+          </tr>
+        <div class="btn">
+            <tr>
+          <td colspan="2"><button type="reset">Reset</button>
+            <button type="submit">Add</button>
+          <button type="button">Update</button></td>
+         </tr>
+        </div>
+    </table>
+    </div>
+   </div> 
+</body>
+</html>

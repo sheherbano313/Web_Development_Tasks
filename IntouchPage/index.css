@@ -1,0 +1,264 @@
+body {
+    font-family: sans-serif;
+  }
+
+.nav1{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 3%;
+    float: left;
+    padding: 10px;
+}
+.location, .mail, .Contact {
+   display: flex;
+   margin: auto;
+}
+.icon{
+font-size: 30px;
+margin: 10px;
+color: orange;
+
+}
+.htext{
+    margin-top: 10px;
+}
+.headericon{
+
+display: flex;
+ justify-content: space-between;
+ margin-left: 230px;
+  gap: 180px;
+}
+.nav2{
+    display: flex;
+    width: 100%;
+}
+
+.list ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    margin-left: 400px;
+    
+}
+.list ul li a{
+    text-decoration: none;
+    padding: 20px;
+   
+}
+.joinNow{
+    background-color: #ff7c00;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 300px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    float: right;
+    margin-top: 5px;
+}
+
+/* 1st section/ learning section style */
+.learning{
+    width: 90%;
+    height: 300px;
+    /* margin: 50px 30px; */
+    background-image: url('bgimage.jpg');
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    opacity: 0.1px;
+}
+.learning, h1 + p {
+    padding-left: 130px;
+    padding-top: 70px;
+    color: white;
+    /* text-align: center; */
+    
+}
+button{
+   
+    background-color: #ff7c00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Home Page Style */
+
+.about{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+}
+.img {
+    width: 50%;
+    height: 400px;
+}
+.img img{
+    width: 100%;
+    height: 400px;
+}
+.text{
+    padding-left: 40px;
+    width: 50%;
+    height: inherit;
+    text-align: justify;
+}
+/* Subject Section Style */
+.subject{
+    width: 80%;
+    height: auto;
+   margin: 30px 10%;
+   padding: 50px 0;
+
+}
+.subtext{
+    text-align: center;
+
+}
+.subjects-grid {
+    width: 100%;
+    height: 270px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .subject-item {
+    background-color: #333;
+    color: rgb(5, 5, 5);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 8px;
+  }
+  .subject-item span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #fdfcfc;
+  }
+#img1{
+    background-image: url(webdevelopment.jpg);
+    background-size: 100% 130px;
+    opacity: 0.5px;
+    color: white;
+}
+#img2{
+    background-image: url(c++.jpg);
+    background-size: 100% 130px;
+    opacity: 0.5px;
+    color: white;
+}
+#img3{
+    background-image: url(webdevelopment.jpg);
+    background-size: 100% 130px;
+    opacity: 0.5px;
+    color: white;
+}
+
+#img4{
+    background-image: url(c++.jpg);
+    background-size: 100% 130px;
+    opacity: 0.5px;
+    color: white;
+}
+#img5{
+    background-image: url(oop.jpg);
+    background-size: 90% 130px;
+    opacity: 0.5px;
+    color: white;
+}
+
+#img6{
+    background-image: url(c++.jpg);
+    background-size: 100% 130px;
+    opacity: 0.5px;
+    color: white;
+}
+
+#img7{
+    background-image: url(appdevelopment.jpg);
+    background-size: 100% 130px;
+    opacity: 0.5px;
+    color: white;
+}
+#img8{
+    background-image: url(webdevelopment.jpg);
+    background-size: 100% 130px;
+    opacity: 0.5px;
+    color: white;
+}
+
+/* Working Hours Section */
+.working-hours {
+    width: 80%;
+    height: auto;
+   margin: 30px 10%;
+   padding: 50px 0;
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+.hours-grid {
+    width: 100%;
+    height: 270px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.hour-item {
+    background-color: #2f2f5f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 8px;
+  }
+.hour-item h4{
+ color: orange;
+}
+.team{
+    width: 80%;
+    height: auto;
+   margin: 30px 10%;
+   padding: 50px 0;
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center; 
+}
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.team-member{
+    text-align: center;
+}
+.team-member img{
+    width: 50%;
+    height: 140px;
+    margin-bottom: 10px;
+}
+.team-member p{
+    margin: 0px;
+    width: 50%;
+    height: 30px;
+    background-color: #c2a9a9;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+.footer-content{
+    background-color: #2f2f5f;
+    display: flex;
+    justify-content: center;
+}

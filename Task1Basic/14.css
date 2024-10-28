@@ -1,0 +1,194 @@
+/* Global Styles */
+
+body {
+    background-color: rgb(173, 110, 233);
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Header Styles */
+
+header {
+    width: 100%;
+    height: 130px;
+    background-color: rgb(149, 168, 120);
+    color: black;
+    text-align: center;
+    justify-content: center;
+    border: solid white 3px;
+}
+
+/* Navigation Styles */
+
+nav {
+    margin: 15px;
+    width: 95%;
+    height: 40px;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    border: solid rgb(19, 18, 18) 4px;
+    margin-top: 30px;
+}
+
+/* Main Content Styles */
+
+.main {
+    display: flex;
+    margin: 25px;
+    width: 100%;
+    height: 400px;
+}
+
+.left {
+    width: 60%;
+    height: 350px;
+    border: solid white 2px;
+    background-color: tomato;
+    padding: 10px;
+}
+
+.right {
+    width: 30%;
+    height: 350px;
+    border: solid white 2px;
+    margin-left: 50px;
+    background-color: tomato;
+    padding: 10px;
+}
+
+/* Header 1 Styles */
+
+.header1 {
+    margin: 6px;
+    border: solid rgb(206, 5, 5) 2px;
+    width: 95%;
+    height: 40px;
+}
+
+/* Article Styles */
+
+.article {
+    background-color: aquamarine;
+    width: 95%;
+    height: 230px;
+    margin: 7px;
+}
+
+.aheader {
+    border: solid white 2px;
+    width: 95%;
+    height: 30px;
+    margin: 7px;
+}
+
+.para {
+    width: 50%;
+    height: 25px;
+    color: black;
+    border: solid white 2px;
+    margin: 7px;
+    background-color: rgb(248, 173, 111);
+}
+
+.aside {
+    width: 40%;
+    height: 25px;
+    color: black;
+    border: solid white 2px;
+    margin: 8px;
+    background-color: rgb(247, 245, 244);
+}
+
+.twopara {
+    display: flex;
+}
+
+/* Section Footer Styles */
+
+.sectionfooter {
+    margin: 6px;
+    border: solid white 2px;
+    width: 95%;
+    height: 40px;
+    background-color: white;
+}
+
+/* Right Nav Styles */
+
+.rightnav {
+    width: 80%;
+    height: 180px;
+}
+
+/* Last Footer Styles */
+
+.lastfooter {
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    padding: 5px 0px;
+    margin: 5px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: rgb(207, 17, 96);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main .left {
+        background-color: #fc0101;
+        width: 80%;
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 700px) {
+    header {
+        background-color: #23c215;
+        width: 100%; 
+    }
+}
+@media screen and (max-width: 650px) {
+    .main .right {
+        width: 90%;
+        margin: 10px;
+
+    }
+}
+@media screen and (max-width: 500px) {
+    .main {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 475px) {
+    .lastfooter {
+        margin-top: 350px; 
+    }
+}
+@media screen and (max-width: 768px) {
+    .main .left, .main .right {
+        background-color: #fc0101;
+        width: 100%;
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 820px) {
+    .main .left, .main .right {
+        background-color: #fc0101;
+        width: 100%;
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 344px) {
+    .main .left, .main .right {
+        background-color: #fc0101;
+        width: 80%;
+        margin-right: 10px;
+    }
+}

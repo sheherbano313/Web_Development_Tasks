@@ -1,0 +1,33 @@
+.imagecontainer{
+    margin: 40px;
+    display: flex;
+    width: 40%;
+    height: auto;
+    gap: 20px;
+}
+
+.sideImage,img{
+    margin: 5px;
+    width: 90px;
+    padding: auto;
+    margin-left: 25px;
+    
+}
+.limage{
+    margin: 20px;
+    width: 60%;
+    height: auto;
+    background-color: #f3ebeb;
+    margin: 10px;
+
+}
+.largreimage{
+
+    width: 100%;
+    height: auto;
+}
+
+/* flex the main container */
+.mainContainer{
+    display: flex;
+}

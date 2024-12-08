@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+    <label for=""> enter number 1</label>
+    <input type="number" id="num1">
+    <label for="">enter number 2</label>
+    <input type="number" id="num2">
+    <button onclick="add()">add</button>
+
+    <div type="number" id="ans"></div>
+
+
+
+    <div class="container"></div>
+    <div class="container"></div>
+    <div class="container"></div>
+    <div class="container"></div>
+    <div class="container"></div>
+    <div class="container"></div>
+
+
+    <select name="" id="mode" onchange="changeMode(this.value)">
+        <option >select mode</option>
+        <option value="dark">dark</option>
+        <option value="light">light</option>
+    </select>
+
+
+
+    <script>
+        var ans = document.getElementById('ans');
+        function add() {
+            var containers = document.getElementsByClassName('container');
+            var containerCss = `
+                width:200px;
+                height:200px;
+                background-color:brown;
+                border-radius:10px;
+            `;
+            for(let i=0;i<containers.length;i++){
+                containers[i].style.cssText = containerCss;
+            }
+            var num1 =Number.parseInt(document.getElementById('num1').value);
+            var num2 =Number.parseInt(document.getElementById('num2').value);
+            ans.innerText = num1+num2;
+        }
+
+        function changeMode(val){
+            if(val==='dark'){
+                document.body.style.backgroundColor='black',document.body.style.color="white";
+            }
+            else{
+                document.body.style.backgroundColor='white',document.body.style.color="red";
+                
+            }
+           
+        }
+    </script>
+</body>
+
+</html>

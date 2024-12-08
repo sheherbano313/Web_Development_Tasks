@@ -1,0 +1,104 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f3f9;
+}
+
+/* Header styling */
+header {
+    background-color: #ecf0f4;
+    color: #0c0c0c;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header a {
+    color: #2517f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+.imagesec{
+    width: 100%;
+    height: auto;
+    background-color: rgb(97, 234, 177);
+}
+.imagesec img {
+    width: 30%;
+    height: 300px;
+   margin:20px ;
+   margin-left: 350px;
+
+}
+/* Main content area */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Blog post styling */
+.blog-post {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+    font-size: 20px;
+    color: #0e154c;
+}
+
+.blog-post p {
+    color: #666;
+    margin-top: 5px;
+}
+.main1{
+    display: flex;
+}
+
+/* Sidebar styling */
+.useful-links {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 20px;
+    height: fit-content;
+}
+
+.useful-links h3 {
+    width: 100%;
+    height: 30px;
+    background-color: red;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.useful-links ul {
+    list-style-type: none;
+}
+
+.useful-links li {
+    margin-top: 10px;
+}
+
+.useful-links a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}

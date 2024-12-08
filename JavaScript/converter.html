@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label,h3{
+            font-size: 30px;
+            font-family: 3em sans-serif;
+        }
+        input{
+            padding: 10px 5px;
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body><div style="background-color: bisque; width: 40%; height: auto; ">
+    <h3>rem to px conveter and vice versa</h3>
+    <label for="">enter rem</label>
+    <input type="number" id="rem" oninput="Rem()"> <br><br>
+    <label for="">enter px</label>
+    <input type="number" id="px" oninput="Px()" style="margin-left: 10px;"></div>
+    <!-- igniter -->
+    <script>
+        var rem = document.getElementById('rem');
+        var px = document.getElementById('px');
+        function Rem(){
+            var result = rem.value*16;
+            px.value = result;
+        }
+        function Px(){
+            var results = px.value/16;
+            rem.value = results
+        }
+    </script>
+
+
+
+
+</body>
+</html>

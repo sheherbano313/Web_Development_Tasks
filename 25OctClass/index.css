@@ -154,7 +154,8 @@ button{
     width: 70%;
     height: 300px;
     background-color: #86d269;
-    margin-top: -70px;
+    z-index: 350px;
+    /* margin-top: -55px; */
     display: flex;
     padding: 10px;
     padding-left: 140px;

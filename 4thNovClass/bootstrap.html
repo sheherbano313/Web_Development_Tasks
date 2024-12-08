@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <style>
+        .container{
+            border: 2px solid red; 
+            margin: 10px 20px; 
+            
+        }
+        .height{
+            height: 200px;
+            text-align: center; 
+        }
+        .bordered { 
+            border: 2px solid red; 
+            padding: 10px; 
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="col-6 container p-3 ">
+    <!-- Website Name -->
+    <div class="row">
+        <div class="col-12 bordered">
+            <h2 class="">Website Name</h2>
+        </div>
+    </div>
+
+    <div class="row mt-3 height "  text-align: center;>
+        <!-- Menu -->
+        <div class="col-3  bordered  ">
+            <h3>Menu</h3>
+        </div>
+
+        <!-- Content Area -->
+        <div class="col-md-6 bordered">
+            <h3>Content Area</h3>
+        </div>
+
+        <!-- Advertisement -->
+        <div class="col-md-3 bordered">
+            <h3>Advt</h3>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="row mt-3">
+        <div class="col-12 bordered">
+            <h3>Footer</h3>
+        </div>
+    </div>
+</div>
+
+
+<script src="../bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

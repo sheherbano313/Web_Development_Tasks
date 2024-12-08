@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa officiis, cumque fugiat quas sequi repudiandae enim alias voluptatum perferendis repellendus nesciunt, ut ducimus? Alias sit nam consequatur animi fugit enim!</p>
+
+    <button onclick="changeContent()">click me</button>
+
+    
+
+
+    <script>
+        var para = document.getElementById('para');
+        function changeContent(){
+            para.innerText = '<h1>helo this is dynamic content</h1>';
+            para.innerHTML = '<h1>helo this is dynamic content</h1>';
+            para.textContent="lkjlkjlk";
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> <div class="container"></div>
+    <label for="" id="num1">Enter the First Number</label>
+    <input type="number"> <br><br>
+    <label for="" id="num2"> Enter the Second Number</label>
+    <input type="number"> <br><br>
+    <button onclick="Add">Add</button>
+   
+    
+    <script>
+        var container = document.getElementById('container')
+        var no1 =  Number.parseInt(document.getElementById('num1'))
+        var no2 =  Number.parseInt( document.getElementById('num2'))
+
+        function Add(){
+            container.innerText = no1+no2;
+           
+        }
+       
+    </script>
+</body>
+</html>

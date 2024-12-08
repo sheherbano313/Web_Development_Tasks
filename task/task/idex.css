@@ -1,33 +1,171 @@
-.imagecontainer{
-    margin: 40px;
-    display: flex;
-    width: 40%;
+body{
+    font-family: sans-serif;
+    padding: auto;
+    margin: auto;
+}
+
+.mainContainer{
+    width: 100%;
     height: auto;
-    gap: 20px;
+    display: flex;
+    /* background-color: #e0dede; */
+}
+.imagecontainer{
+  
+    display: flex;
+    width: 45%;
+    height: auto;
+    gap: 7px;
+   
+}
+.sideImage{
+    margin-left: 1rem;
+    width: 20%;
+    height: auto;
 }
 
 .sideImage,img{
-    margin: 5px;
-    width: 90px;
-    padding: auto;
-    margin-left: 25px;
+    width: 80px;
+    padding: auto; 
+}
+
+.sideImage ul{
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    justify-content: space-evenly;
     
+
 }
 .limage{
-    margin: 20px;
-    width: 60%;
+    display: flex;
+    width: 83%;
     height: auto;
-    background-color: #f3ebeb;
-    margin: 10px;
-
+    justify-content: center;
+    align-items: center;
 }
 .largreimage{
-
     width: 100%;
-    height: auto;
+    height: 400px;
+    align-items: center;
+    margin: auto;
+}
+.largreimage{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
-/* flex the main container */
-.mainContainer{
+/* right side style */
+.textcontainer{
+    margin: 5%;
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    margin: auto;
+
+}
+button{
+  width: 100%;
+  height: 50px;  
+  background-color: skyblue;
+  border-radius: 5px;
+  border: none;
+  margin: auto;
+ padding: 15px;
+}
+.button{
     display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+}
+span{
+    padding: auto;
+}
+.btn{
+    background-color: #fff;
+    padding: auto;
+    
+    margin-top: 1rem;
+}
+.img1:hover{
+    border: solid skyblue 2px;
+
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .mainContainer{
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+
+    }
+    .imagecontainer{
+        width: 100%;
+        flex-direction: column-reverse;
+        
+    }
+    .sideImage{
+        width: 90%;
+        display: flex;
+    }
+    .sideImage ul {
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row-reverse;
+        list-style: none;
+       
+    }
+    .limage {
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+        width: 90%;
+        height: auto;
+        align-items: center;
+    }
+    .textcontainer {
+        width: 100%;
+        text-align: justify;
+        padding: 0px;
+        margin: 0px;
+    }
+    p{
+        text-align: justify;
+    }
+    .span{
+        justify-content: start;
+        float: left;
+    }
+    button {
+        width: 100%;
+        height: 50px;
+        background-color: skyblue;
+        border-radius: 5px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .btn {
+        margin: 0;
+        padding: 5px;
+        border: whitesmoke;
+    }
 }

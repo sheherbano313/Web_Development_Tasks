@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=  , initial-scale=1.0">
+    <title>23Task </title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <style>
+        .btn{
+            width: 20%;
+            border: none;
+            background-color: orange;
+            padding: 10px 40px;
+            border-radius: 10px;
+            margin-left: 30px;
+        }
+        input{
+            border: none;
+            width: 30%;
+            padding: 10px 40px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h4>To-Do list</h4>
+        <br>
+        <div class="row">
+            <div class="col-8 d-flex p-0" >
+                
+                    <input type="text" id="taskInput" placeholder="  Add a New Task">
+                <button class="btn" id="addTaskBtn"> AddTask
+                </button>
+                <br><br>
+                <ul class="list-group" id="taskList">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="../bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

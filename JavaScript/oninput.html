@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <textarea name="" id="content" rows="10" cols="100" oninput="displayContnet()"></textarea>
+    <p id="para"></p>
+    <script>
+        var content = document.getElementById('content');
+        var para = document.getElementById('para');
+        function displayContnet(){
+            para.innerText = content.value;
+        }
+    </script>
+</body>
+
+</html>

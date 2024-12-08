@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // task 1 create an array
+        let fruit = ['apple ', 'banana ', 'orange ', 'mango ','grape ']
+        document.write('<b> Fruits Array:</b> '+ fruit + "<br>")
+ 
+
+        document.write('<br>')
+        // task 2 add and element
+        fruit.push('banana')
+        document.write('<b>Fruits Array after adding and element:</b> '+ fruit + "<br><br>")
+
+        // task 3 remove the element
+
+        let lasfruit = fruit.pop()
+        document.write('<b> Fruits Array after removing the last element:</b> '+ fruit + "<br><br>" )
+        // accessing the element of the array
+
+        document.write(fruit[0] + "<br><br>")
+
+
+        // find the length of the array
+        let arraylength = fruit.length
+        document.write('<b>the length of the array:</b> '+arraylength + "<br><br>")
+        // combine two arrray
+        let vegtable =  ['patato', 'tamoto','onion', 'carrot']
+        let groceryList = fruit.concat(vegtable);
+        document.write('<b>Combination Two Arrays:</b> '+ groceryList  + "<br><br>")
+
+        // Iterate Through an Array
+        document.write('<b>Iterate Through an Array:  </b>')
+        for (let i = 0; i<groceryList.length ; i++){
+            document.write(groceryList[i])
+        }
+        document.write("<br><br>")
+        //Check for an Item 
+
+        if (groceryList.includes('carrot')) {
+           document.write('Carrot is in the grocery list.');
+     } else {
+    document.write('Carrot is not in the grocery list.');
+    }
+    document.write("<br><br>")
+    // Slice an Array
+    let someFruit = fruit.slice(0,3)
+        document.write('<b>Some Fruits (first three of the array) </b>' + someFruit  + "<br><br>")
+
+        
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,1 @@
+This project is a web development task that demonstrates the creation of an interactive, user-friendly website. It focuses on building a clean, responsive design and implementing core web development concepts.
